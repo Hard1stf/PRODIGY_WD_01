@@ -1,0 +1,176 @@
+
+.glass{
+    backdrop-filter: blur(10px);
+    background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
+}
+
+.bg-image{
+    margin-top: 4rem !important;
+    background-image: url(./assets/images/night-mountain-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -150px;
+    height: 100vh;
+}
+
+main{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.content .items-container{
+    display: flex;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        padding: 45px;
+}
+
+
+.align-1 {
+    flex-direction: row-reverse;
+}
+
+.align-2 {
+    flex-direction: row;
+}
+
+.align-3 {
+    flex-direction: row-reverse;
+}
+
+.align-1 img {
+    margin-right: 50px;
+}
+
+.align-2 img {
+    margin-left: 50px;
+}
+
+
+.side-text-1 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.side-text-2 {
+    text-align: left;
+    padding-left: 175px;
+}
+
+.side-text-3 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.items-container .g-t-about {
+    padding-right: 150px;
+}
+
+.items-container{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+.items-container img{
+    width: 30%;
+}
+
+.items-container .g-t-about{
+    line-height: 25px;
+}
+
+
+@media (max-width:1024px) {
+    .bg-image{
+        height: 70vh;
+    }
+
+    .items-container .g-t-about {
+        padding-right: 30px;
+    }
+
+    .align-1 img {
+        margin-right: 0px;
+    }
+    
+    .align-2 img {
+        margin-left: 0px;
+    }
+
+    .side-text-1 {
+        padding-left: 0px;
+    }
+
+    .side-text-2{
+        padding-left: 50px;
+    }
+
+    .side-text-3 {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 768px){
+    .bg-image{
+        background-position: 0px 0px;
+        height: 90vh;
+    }
+}
+@media (max-width: 425px) {
+    .bg-image{
+        margin-top: 0 !important;
+        background-position: 0px 0px;
+        height: 100vh;
+    }
+
+    main {
+        width: 85%;
+        margin-inline: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .content .items-container {
+        width: 100%;
+        padding: 30px;
+        margin-block: 50px;
+        flex-direction: column;
+    }
+    
+    .items-container img {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .items-container .g-t {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .items-container .g-t-about {
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        padding-right: 0px;
+        opacity: 70%;
+    }
+
+    .side-text-2{
+        padding-left: 0px;
+        padding-inline: 0px;
+    }
+}
+
+.bg-blur{
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+    /* padding-bottom: 50px;
+    padding-top: 0px; */
+}
+
