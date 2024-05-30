@@ -1,10 +1,9 @@
-
-.glass{
+.glass {
     backdrop-filter: blur(10px);
     background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
 }
 
-.bg-image{
+.bg-image {
     margin-top: 4rem !important;
     background-image: url(./assets/images/night-mountain-5.jpg);
     background-repeat: no-repeat;
@@ -14,18 +13,18 @@
     height: 100vh;
 }
 
-main{
+main {
     width: 80%;
     margin-inline: auto;
     margin-top: 50px;
 }
 
-.content .items-container{
+.content .items-container {
     display: flex;
-        align-items: center;
-        gap: 30px;
-        width: 100%;
-        padding: 45px;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 45px;
 }
 
 
@@ -69,30 +68,34 @@ main{
     padding-right: 150px;
 }
 
-.items-container{
+.items-container {
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 50px;
 }
 
-.items-container img{
+.items-container img {
     width: 30%;
 }
 
-.items-container .g-t-about{
+.items-container .g-t-about {
     line-height: 25px;
 }
 
-.bg-blur{
+.bg-blur {
     height: 100%;
     backdrop-filter: blur(10px);
     background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
     border-radius: 20px;
 }
 
+.text-royal {
+    color: blueviolet !important;
+}
+
 /* Laptop screen size....... */
 @media (max-width:1024px) {
-    .bg-image{
+    .bg-image {
         height: 70vh;
     }
 
@@ -103,7 +106,7 @@ main{
     .align-1 img {
         margin-right: 0px;
     }
-    
+
     .align-2 img {
         margin-left: 0px;
     }
@@ -112,7 +115,7 @@ main{
         padding-left: 0px;
     }
 
-    .side-text-2{
+    .side-text-2 {
         padding-left: 50px;
     }
 
@@ -122,8 +125,8 @@ main{
 }
 
 /* tablet screen size....  */
-@media (max-width: 768px){
-    .bg-image{
+@media (max-width: 768px) {
+    .bg-image {
         background-position: 0px 0px;
         height: 90vh;
     }
@@ -131,7 +134,7 @@ main{
 
 /* mobile screen size..... */
 @media (max-width: 425px) {
-    .bg-image{
+    .bg-image {
         margin-top: 0 !important;
         background-position: 0px 0px;
         height: 100vh;
@@ -143,24 +146,24 @@ main{
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
+
     .content .items-container {
         width: 100%;
         padding: 30px;
         margin-block: 50px;
         flex-direction: column;
     }
-    
+
     .items-container img {
         width: 90%;
         margin-bottom: 50px;
     }
-    
+
     .items-container .g-t {
         margin-bottom: 15px;
         text-align: center;
     }
-    
+
     .items-container .g-t-about {
         text-align: center;
         font-size: 18px;
@@ -170,7 +173,7 @@ main{
         opacity: 70%;
     }
 
-    .side-text-2{
+    .side-text-2 {
         padding-left: 0px;
         padding-inline: 0px;
     }
