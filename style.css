@@ -174,7 +174,5 @@ main{
     backdrop-filter: blur(10px);
     background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
     border-radius: 20px;
-    /* padding-bottom: 50px;
-    padding-top: 0px; */
 }
 
