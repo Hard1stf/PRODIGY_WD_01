@@ -83,6 +83,13 @@ main{
     line-height: 25px;
 }
 
+.bg-blur{
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+}
+
 /* Laptop screen size....... */
 @media (max-width:1024px) {
     .bg-image{
@@ -168,11 +175,3 @@ main{
         padding-inline: 0px;
     }
 }
-
-.bg-blur{
-    height: 100%;
-    backdrop-filter: blur(10px);
-    background: linear-gradient(360deg, rgba(212, 197, 197, 0), rgba(255, 255, 255, 0));
-    border-radius: 20px;
-}
-
