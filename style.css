@@ -146,7 +146,7 @@ main {
     .bg-image {
         /* margin-top: 0 !important; */
         background-position: 0px 0px;
-        height: 100vh;
+        height: 80%;
     }
 
     .content .items-container {
