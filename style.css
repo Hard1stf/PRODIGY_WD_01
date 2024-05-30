@@ -149,6 +149,10 @@ main {
         transform: none;
         transition: none;
     }
+
+    .items-container:hover{
+    transform: none;
+    }
 }
 
 /* mobile screen size..... */
@@ -175,6 +179,10 @@ main {
     .items-container{
         transform: none;
         transition: none;
+    }
+
+    .items-container:hover{
+    transform: none;
     }
 
     .items-container img {
