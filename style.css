@@ -89,15 +89,12 @@ main {
     border-radius: 20px;
 }
 
-.text-royal {
+.text-info-emphasis{
     color: blueviolet !important;
 }
 
 /* Laptop screen size....... */
 @media (max-width:1024px) {
-    .bg-image {
-        height: 70vh;
-    }
 
     .items-container .g-t-about {
         padding-right: 30px;
@@ -127,8 +124,20 @@ main {
 /* tablet screen size....  */
 @media (max-width: 768px) {
     .bg-image {
+        background-attachment: scroll;
+        margin-top: 0px !important;
         background-position: 0px 0px;
         height: 90vh;
+    }
+
+    .text-info-emphasis{
+        color: whitesmoke !important;
+    }
+    
+    main {
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 0rem;
     }
 }
 
