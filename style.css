@@ -14,7 +14,7 @@
 }
 
 main {
-    width: 60%;
+    width: 60%;  /* reduce the width of main container.*/
     margin-inline: auto;
     margin-top: 50px;
 }
