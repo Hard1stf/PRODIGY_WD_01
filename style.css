@@ -83,7 +83,7 @@ main{
     line-height: 25px;
 }
 
-
+/* Laptop screen size....... */
 @media (max-width:1024px) {
     .bg-image{
         height: 70vh;
@@ -113,6 +113,8 @@ main{
         padding-left: 0px;
     }
 }
+
+/* tablet screen size....  */
 @media (max-width: 768px){
     .bg-image{
         background-position: 0px 0px;
