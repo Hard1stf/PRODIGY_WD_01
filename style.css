@@ -144,6 +144,11 @@ main {
         margin-inline: auto;
         margin-top: 0rem;
     }
+
+    .items-container{
+        transform: none;
+        transition: none;
+    }
 }
 
 /* mobile screen size..... */
@@ -165,6 +170,11 @@ main {
         padding: 30px;
         margin-block: 50px;
         flex-direction: column;
+    }
+
+    .items-container{
+        transform: none;
+        transition: none;
     }
 
     .items-container img {
