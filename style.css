@@ -143,11 +143,11 @@ main {
 
 /* mobile screen size..... */
 @media (max-width: 425px) {
-    /* .bg-image {
-        margin-top: 0 !important;
+    .bg-image {
+        /* margin-top: 0 !important; */
         background-position: 0px 0px;
         height: 100vh;
-    } */
+    }
 
     .content .items-container {
         width: 100%;
