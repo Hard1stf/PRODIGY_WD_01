@@ -25,8 +25,13 @@ main {
     gap: 30px;
     width: 100%;
     padding: 45px;
+    transform: scale(1);
+    transition: transform  .3s ease-in-out;
 }
 
+.items-container:hover{
+    transform: scale(1.1);
+}
 
 .align-1 {
     flex-direction: row-reverse;
