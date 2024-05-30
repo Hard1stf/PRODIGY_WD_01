@@ -142,7 +142,7 @@ main {
     main {
         width: 80%;
         margin-inline: auto;
-        margin-top: 0rem;
+        margin-top: 4rem;
     }
 
     .items-container{
@@ -162,7 +162,7 @@ main {
     main {
         width: 80%;
         margin-inline: auto;
-        margin-top: 130px;
+        margin-top: 70px;
     }
 
     .content .items-container {
